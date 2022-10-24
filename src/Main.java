@@ -5,12 +5,12 @@ import Moves.*;
 public class Main {
     public static void main(String[] yolo) {
         Battle b = new Battle();
-        Lugia p1 = new Lugia("(Лужа)", 2);
-        Snorunt p2 = new Snorunt("(Снорант)", 2);
-        Froslass p3 = new Froslass("(Фросласс)", 2);
-        Oddish p4 = new Oddish("(Оддиш)", 2);
-        Gloom p5 = new Gloom("(Глум)", 2);
-        Bellossom p6 = new Bellossom("(Белоссом)", 2);
+        Lugia p1 = new Lugia("(Лужа)", 10);
+        Snorunt p2 = new Snorunt("(Снорант)", 10);
+        Froslass p3 = new Froslass("(Фросласс)", 10);
+        Oddish p4 = new Oddish("(Оддиш)", 10);
+        Gloom p5 = new Gloom("(Глум)", 10);
+        Bellossom p6 = new Bellossom("(Белоссом)", 10);
         b.addAlly(p1);
         b.addAlly(p2);
         b.addAlly(p3);
