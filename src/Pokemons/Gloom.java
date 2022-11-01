@@ -1,7 +1,7 @@
 package Pokemons;
 import Moves.*;
 import ru.ifmo.se.pokemon.*;
-public class Gloom extends Pokemon {
+public class Gloom extends Oddish {
     public Gloom(String name, int level) {
         super(name, level);
         setType(Type.GRASS, Type.POISON);
