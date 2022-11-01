@@ -1,7 +1,7 @@
 package Pokemons;
 import Moves.*;
 import ru.ifmo.se.pokemon.*;
-public class Froslass extends Pokemon {
+public class Froslass extends Snorunt {
     public Froslass(String name, int level) {
         super(name, level);
         setType(Type.ICE, Type.GHOST);
